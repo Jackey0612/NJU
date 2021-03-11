@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6bc95f-75c8-46cf-9f8b-3300301d36ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_huaban_jieba_analysis_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_huaban_jieba_analysis_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__e_iceblue_spire_office_free_3_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__e_iceblue_spire_office_free_3_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_2_0_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_schemas_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_schemas_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/policyCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/policyCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Util/ReadWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Util/ReadWordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/textObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/textObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/segment/segmentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/segment/segmentUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/Pretreatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/Pretreatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/policyCluster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/ClusterUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Util/ClusterUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/FileIOUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/PdfToWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/ReadWordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Util/spireReadUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/notice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/textObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/textObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GJK/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GJK/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\Git\Git\bin\git.exe" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -302,6 +271,7 @@
       <workItem from="1614590760202" duration="1150000" />
       <workItem from="1614756184046" duration="5626000" />
       <workItem from="1615373853765" duration="700000" />
+      <workItem from="1615444006316" duration="2268000" />
     </task>
     <servers />
   </component>

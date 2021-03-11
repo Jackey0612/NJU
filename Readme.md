@@ -45,3 +45,11 @@ List<notice> notices;
 
 
 尝试使用git监控每次改动
+
+
+
+2021.3.11
+
+开始探索通知正文部分的提取
+
+使用map<string,list[]>存储，key存所有一级标题，每个key对应的list存该一级标题下的所有二级标题

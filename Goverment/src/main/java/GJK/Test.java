@@ -15,7 +15,10 @@ import pojo.textObject;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 public class Test {
 
 
@@ -203,6 +206,16 @@ public class Test {
         System.out.println("通知主体：");
 
 
+        //尝试使用map<string,string[]>的方法进行存储
+/*        Map<String,String[]> map = new HashMap<>();
+        String[] s = new String[3];
+        s[0]="1";
+        s[1]="2";
+        s[2]="3";
+        map.put("a",s);
+        System.out.println(map.get("a"));
+
+        System.out.println(map.get("a").toString());*/
 /*        //获取通知主体一级标题
         int i,j,k=0;
         for (String para : paragraphList){
