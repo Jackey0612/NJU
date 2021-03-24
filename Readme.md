@@ -1,3 +1,5 @@
+2021.3.9
+
 1.可以使用 Jieba分词器对文章段落进行分词
 
 2.可以使用 Apache POI的 XWPFDocument高级封装API对word进行操作
@@ -42,19 +44,9 @@ List<notice> notices;
 
 检索 词袋 
 
-
+2021.3.10
 
 尝试使用git监控每次改动
-
-
-
-2021.3.11
-
-开始探索通知正文部分的提取
-
-使用map<string,list[]>存储，key存所有一级标题，每个key对应的list存该一级标题下的所有二级标题
-
-
 
 git指令
 
@@ -63,3 +55,25 @@ git add *
 git commit -m'注释'
 
 git push -u origin master
+
+
+
+2021.3.11
+
+开始探索通知正文部分的提取
+
+尝试使用map<string,list[]>存储，key存所有一级标题，每个key对应的list存该一级标题下的所有二级标题
+
+
+
+
+
+2021.3.21
+
+1.确定使用map<String,Arraylist< notice > >的方法存储通知主体
+
+2.编写NoticesUtil类，负责获取通知主体部分的内容，成功
+
+遗留问题：
+
+每个小标题中，description部分ok，text部分总是以“。”开头，推测是split的相关原因，代更新

@@ -1,4 +1,5 @@
 package GJK;
+import Util.NoticesUtil;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.poi.POIXMLProperties;
 import org.apache.poi.hwpf.HWPFDocument;
@@ -11,6 +12,7 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
 import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPPr;
+import pojo.notice;
 import pojo.textObject;
 
 import java.io.*;
@@ -94,8 +96,6 @@ public class Test {
 
 
 
-
-
     public static void main(String[] args) throws IOException {
 
         Test test = new Test();
@@ -115,7 +115,7 @@ public class Test {
         // 初始化docxObject
 
         //可删
-        List<String> paragraphList = new ArrayList<>();
+        ArrayList<String> paragraphList = new ArrayList<>();
 
         int issuanceAgencyFontSize = 0,titleFontSize=0;
 
@@ -131,30 +131,35 @@ public class Test {
             //获取段落字号
             List<XWPFRun> runs = para.getRuns();
 
+            //判断是否和发布机构字号一样，追加到发布机构部分
             if (runs.get(0).getFontSize() == issuanceAgencyFontSize){
                 docxObjcet.setIssuanceAgency(docxObjcet.getIssuanceAgency()+paraContent);
                 continue;
             }
 
+            //判断是否和文档标题字号一样，追加到文档标题部分
             if (runs.get(0).getFontSize() == titleFontSize){
 
                 docxObjcet.setTitle(docxObjcet.getTitle()+paraContent);
                 continue;
             }
 
-
+            //设置发布机构
             if (docxObjcet.getIssuanceAgency() == null) {
 
                     docxObjcet.setIssuanceAgency(paraContent);
                     issuanceAgencyFontSize =runs.get(0).getFontSize();
                     continue;
             }
+
+            // 设置唯一标识号
             if (docxObjcet.getIssueId() == null) {
 
                     docxObjcet.setIssueId(paraContent);
                     continue;
             }
 
+            // 设置文档标题
             if (docxObjcet.getTitle() == null ) {
 
                     docxObjcet.setTitle(paraContent);
@@ -163,6 +168,7 @@ public class Test {
 
             }
 
+            //设置发布去向
             if (docxObjcet.getTargetAgency() == null) {
 
                     docxObjcet.setTargetAgency(paraContent);
@@ -170,6 +176,7 @@ public class Test {
 
             }
 
+            // 设置文档正文
             if (docxObjcet.getTargetText() == null) {
 
                     docxObjcet.setTargetText(paraContent);
@@ -177,8 +184,9 @@ public class Test {
             }
 
 
-
         }
+
+
         //打印docx文档信息
 
         System.out.println(paragraphList.get(3));
@@ -204,6 +212,9 @@ public class Test {
 
         System.out.println();
         System.out.println("通知主体：");
+        NoticesUtil noticesUtil = new NoticesUtil();
+        noticesUtil.getNotices(paragraphList);
+
 
 
         //尝试使用map<string,string[]>的方法进行存储

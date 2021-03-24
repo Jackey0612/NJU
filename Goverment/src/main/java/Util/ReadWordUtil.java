@@ -1,3 +1,4 @@
+/*
 package Util;
 
 import org.apache.poi.hwpf.HWPFDocument;
@@ -16,12 +17,14 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+*/
 /**
  *
  * 读取word文档中表格数据，支持doc、docx
  * @author Fise19
  *
- */
+ *//*
+
 public class ReadWordUtil {
 
     private static List<String> oneTitle = Arrays.asList("一、", "二、", "三、","四、","五、","六、","七、");
@@ -31,13 +34,15 @@ public class ReadWordUtil {
     }
 
 
-    /**
+    */
+/**
      * 将文档内容提取到数据结构
      * 方法未完整！！！
      * @param path
      * @return
      * @throws IOException
-     */
+     *//*
+
     public static textObject getParamStruct(String path) throws IOException {
         InputStream is = new FileInputStream(path);
         XWPFDocument doc = new XWPFDocument(is);
@@ -141,12 +146,14 @@ public class ReadWordUtil {
     }
 
 
-    /**
+    */
+/**
      * <b> 获得段落内容及表格内容
      * </b><br><br><i>Description</i> :  待优化
      * @return void
      * <br><br>Date: 2019/11/16 18:01     <br>Author : dxl
-     */
+     *//*
+
     public static void getWordText(String path) throws IOException {
         XWPFDocument document = new XWPFDocument(new FileInputStream(path));
         try {
@@ -166,11 +173,13 @@ public class ReadWordUtil {
             document.close();
         }
     }
-    /**
+    */
+/**
      * 获取段落内容
      *
      * @param paragraph
-     */
+     *//*
+
     private static void getParagraphText(XWPFParagraph paragraph) {
         // 获取段落中所有内容
         List<XWPFRun> runs = paragraph.getRuns();
@@ -188,11 +197,13 @@ public class ReadWordUtil {
         }
     }
 
-    /**
+    */
+/**
      * 获取表格内容
      *
      * @param table
-     */
+     *//*
+
     private static void getTabelText(XWPFTable table) {
         List<XWPFTableRow> rows = table.getRows();
 
@@ -210,3 +221,4 @@ public class ReadWordUtil {
         }
     }
 }
+*/

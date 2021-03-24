@@ -1,6 +1,8 @@
 package pojo;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 文档的数据结构
@@ -11,7 +13,8 @@ public class textObject {
     String title;
     String targetAgency;
     String targetText;
-    List<notice> notices;
+    Map<String, ArrayList<notice>> notices ;
+
     public String getTargetAgency() {
         return targetAgency;
     }
@@ -54,11 +57,11 @@ public class textObject {
         this.targetText = targetText;
     }
 
-    public List<notice> getNotices() {
+    public Map<String, ArrayList<notice>> getNotices() {
         return notices;
     }
 
-    public void setNotices(List<notice> notices) {
+    public void setNotices(Map<String, ArrayList<notice>> notices) {
         this.notices = notices;
     }
 }

@@ -6,10 +6,15 @@ import java.util.List;
  * 通知正文的结构
  */
 public class notice {
-    // 一级标题
+    // 描述
     String description;
-    // 二级标题
+    // 具体内容
     String text;
+
+    public notice(String description,String text){
+        this.description=description;
+        this.text = text;
+    }
 
     public String getDescription() {
         return description;
